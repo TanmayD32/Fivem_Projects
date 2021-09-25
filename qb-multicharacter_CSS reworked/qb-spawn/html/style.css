@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+.container {
+    font-family: 'Source Sans Pro', monospace;
+}
+ 
+.spawn-locations {
+    position: absolute;
+    top: 10vh;
+    left: 10vh;
+}
+
+.location {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 500px;
+    width: 28vh;
+    height: 4.5vh;
+    margin-bottom: .75vh;
+    transition: 0.2s;
+}
+
+.location > p {
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 4.5vh;
+    font-size: 1.4vh;
+}
+
+.location:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-2px)
+    
+}
+
+.selected {
+    background-color: #2EE59D;
+}
+
+.submit-spawn {
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 28vh;
+    height: 4.5vh;
+    margin-bottom: .75vh;
+    transition: 0.2s;
+}
+
+.submit-spawn > p {
+    position: relative;
+    color: white;
+    text-align: center;
+    line-height: 4.5vh;
+    font-size: 13px;
+    font-family: 'Lato';
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.submit-spawn:hover {
+    background-color: #2EE59D;
+    border-radius: 500px;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-2px)
+}
+
+#spawn-label {
+    font-weight: bold;
+}
+
+.loclabel {
+    width: 28vh;
+    height: 4.5vh;
+    margin-bottom: .75vh;
+    transition: 0.2s;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.loclabel > p {
+    font-family: 'Lato';
+    letter-spacing: 1px;
+    font-weight: bold;
+    position: relative;
+    color: black;
+    text-align: center;
+    line-height: 4.5vh;
+    font-size: 13px;
+}
